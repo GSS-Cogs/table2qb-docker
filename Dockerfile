@@ -1,7 +1,7 @@
 FROM openjdk:8-alpine
 MAINTAINER Alex Tucker <alex@floop.org.uk>
 
-ENV TABLE2QB_VERSION "0.3.2"
+ENV TABLE2QB_VERSION "0.3.3"
 WORKDIR /
 RUN \
     apk add --no-cache curl bash libarchive-tools && \
